@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+</head>
+<body>
+  <div class="container">
+    <div class="row mb-5">
+        <h1>Login</h1>
+    </div>
+    <div class="row mb-3">
+        <form id="login-form" action="https://players-api.developer.alchemy.codes/api/login">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm">
+                      <label for="email"><b>Email</b></label>
+                  </div>
+                  <div class="col-sm">
+                      <input type="text" placeholder="Enter Email" name="email" required>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm">
+                      <label for="password"><b>Password</b></label>
+                  </div>
+                  <div class="col-sm">
+                      <input type="password" placeholder="Enter Password" name="password" required>
+                  </div>
+              </div>
+              <div class="row mt-3">
+                <div class="clearfix">
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </div>
+              </div>
+          </div>
+        </form>
+    </div>
+    <div class="row mt-3">
+        <div class="alert alert-danger hidden" role="alert"></div>
+        <div class="alert alert-success hidden" role="alert"></div>
+    </div>
+    <div class="row">
+      <p>Don't have an account? click <a href="/registration.html">here</a> to create a new user account</p>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "alchemy",
+  "version": "1.0.0",
+  "description": "Anh Nguyen - Alchemy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anh Nguyen",
+  "license": "ISC"
+}

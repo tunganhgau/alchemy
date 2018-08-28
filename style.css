@@ -1,0 +1,12 @@
+.hidden{
+  display: none;
+}
+#players-container table th{
+  padding: 2px 5px;
+}
+#players-container table th:last-child{
+  width: 96px;
+}
+#user{
+  font-weight: bold;
+}

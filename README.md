@@ -6,14 +6,14 @@ Dependency: nodejs
 Execute this command to run locally:
 node server.js
 
-Features:
-. Login/Logout
-. Registration
-. View/Add/delete players
+Features:<br/>
+. Login/Logout<br/>
+. Registration<br/>
+. View/Add/delete players<br/>
 
-Libraries:
-. Bootstrap4
-. jQuery3
+Libraries:<br/>
+. Bootstrap4<br/>
+. jQuery3<br/>
 
 Live test: http://73.123.197.130:5000/index.html
 

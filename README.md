@@ -3,8 +3,8 @@ This repo is for Alchemy Front End Test
 
 Dependency: nodejs
 
-Execute this command to run locally:
-node server.js
+Execute this command below to run locally:<br/>
+  node server.js
 
 Features:<br/>
 . Login/Logout<br/>
